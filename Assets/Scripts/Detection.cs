@@ -65,6 +65,11 @@ public class Detection : MonoBehaviour
         {
             gameObject.transform.position = new Vector3(20.6599998f, 3.0940001f, 11.5f);
         }
+        if (collision.gameObject.CompareTag("ReapStart"))
+        {
+            gameObject.transform.position = new Vector3(-36.9700012f, -0.430999994f, 11.3199997f);
+        }
+        
         if (collision.gameObject.CompareTag("Floor3"))
         {
             ListaCamaras[1].gameObject.SetActive(false);
