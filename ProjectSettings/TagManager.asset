@@ -24,6 +24,9 @@ TagManager:
   - Enemigo
   - Pendulo1
   - colision2
+  - Wall
+  - Reappear
+  - ReapJump
   layers:
   - Default
   - TransparentFX
